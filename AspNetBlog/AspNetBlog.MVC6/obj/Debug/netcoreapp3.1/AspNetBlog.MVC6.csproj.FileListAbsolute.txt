@@ -153,4 +153,4 @@ C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\bin\Debug\netcoreapp3.1\tr\Micro
 C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\obj\Debug\netcoreapp3.1\AspNetBlog.MVC6.MvcApplicationPartsAssemblyInfo.cache
-C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\obj\Debug\netcoreapp3.1\Razor\Views\Account\SignUp.cshtml.g.cs
