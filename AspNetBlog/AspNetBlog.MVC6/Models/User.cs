@@ -13,20 +13,20 @@ namespace AspNetBlog.MVC6.Models
         /// <summary>
         /// User Name
         /// </summary>
-        [Required] // Not Null
+        [Required(ErrorMessage = "Please Enter User Name")] // Not Null
         public string UserName { get; set; }
 
         /// <summary>
         /// User ID
         /// </summary>
-        [Required] // Not Null
+        [Required(ErrorMessage = "Please Enter User ID")] // Not Null
         public string UserId { get; set; }
 
 
         /// <summary>
         /// User Password
         /// </summary>
-        [Required] // Not Null
+        [Required(ErrorMessage = "Please Enter User Password")] // Not Null
         public string UserPassword { get; set; }
     }
 }

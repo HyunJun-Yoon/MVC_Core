@@ -23,7 +23,7 @@ namespace AspNetBlog.MVC6.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult LoginSuccess()
         {
             return View();
         }

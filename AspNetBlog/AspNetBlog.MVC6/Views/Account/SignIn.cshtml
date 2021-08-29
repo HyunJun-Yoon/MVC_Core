@@ -1,1 +1,21 @@
-﻿<h2>Sign In</h2>
+﻿@model AspNetBlog.MVC6.ViewModel.SignInViewModel
+
+<h2>Sign In</h2>
+
+<form class="" method="post" asp-controller="Account" asp-action="SignIn">
+    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+    <div class="form-group">
+        <label>User ID</label>
+        <input type="text" asp-for="UserId" class="form-control" placeholder="Enter User ID" />
+        <span class="text-danger" asp-validation-for="UserId"></span>
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" asp-for="UserPassword" class="form-control" placeholder="Enter User Password" />
+        <span class="text-danger" asp-validation-for="UserPassword"></span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">Sign In</button>
+    </div>
+</form>
