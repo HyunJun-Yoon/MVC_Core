@@ -1,0 +1,22 @@
+﻿<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Title</th>
+            <th>Author</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var post in Model)
+        {
+            <tr>
+                <td>@post.PostNumber</td>
+                <td>@post.PostTitle</td>
+                <td>@post.PostAuthor</td>
+            </tr>
+        }
+
+    </tbody>   
+</table>
+
+<a class="btn btn-warning" asp-controller="Post" asp-action="Add">Add a post</a>

@@ -2,6 +2,7 @@
 using AspNetBlog.MVC6.DataContext;
 using AspNetBlog.MVC6.Models;
 using AspNetBlog.MVC6.ViewModel;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -32,8 +33,9 @@ namespace AspNetBlog.MVC6.Controllers
                     if (user != null)
                     {
                         // Sign In Success
+                        //HttpContext.Session.SetInt32(key, value);
+                        HttpContext.Session.SetInt32("USER_LOGIN_KEY", user.UserNumber);
                         return RedirectToAction("LoginSuccess", "Home");
-
                     }
 
                 }
@@ -42,6 +44,12 @@ namespace AspNetBlog.MVC6.Controllers
                 ModelState.AddModelError(string.Empty, "User ID and Password do not match");
             }
             return View(model);
+        }
+
+        public IActionResult SignOut()
+        {
+            HttpContext.Session.Remove("USER_LOGIN_KEY");
+            return RedirectToAction("Index", "Home");
         }
         public IActionResult SignUp()
         {

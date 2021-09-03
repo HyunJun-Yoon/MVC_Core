@@ -151,6 +151,11 @@ C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\bin\Debug\netcoreapp3.1\ru\Micro
 C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\obj\Debug\netcoreapp3.1\AspNetBlog.MVC6.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\obj\Debug\netcoreapp3.1\Razor\Views\Account\SignUp.cshtml.g.cs
 C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\obj\Debug\netcoreapp3.1\Razor\Views\Home\LoginSuccess.cshtml.g.cs
+C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\obj\Debug\netcoreapp3.1\AspNetBlog.MVC6.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\obj\Debug\netcoreapp3.1\Razor\Views\Post\index.cshtml.g.cs
+C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\obj\Debug\netcoreapp3.1\Razor\Views\Post\Add.cshtml.g.cs
+C:\Projects\MVC_Core\AspNetBlog\AspNetBlog.MVC6\obj\Debug\netcoreapp3.1\Razor\Views\Post\Edit.cshtml.g.cs
